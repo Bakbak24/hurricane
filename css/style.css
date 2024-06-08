@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tornado {
+    animation: tornado-translation 3s ease-in-out forwards, tornado-translation-backwards 3s ease-in-out 3s forwards;
+}
+
+@keyframes tornado-translation {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(59.5%);
+    }
+}
+
+@keyframes tornado-translation-backwards {
+    from {
+        transform: translateX(59.5%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+#Tornado #elip13 {
+    animation: zigzag 0.5s ease-in-out infinite alternate;
+}
+
+#Tornado #elip12 {
+    animation: zigzag 0.5s ease-in-out 0.1s infinite alternate;
+}
+
+#Tornado #elip11 {
+    animation: zigzag 0.5s ease-in-out 0.2s infinite alternate;
+}
+
+#Tornado #elip10 {
+    animation: zigzag 0.5s ease-in-out 0.3s infinite alternate;
+}
+
+#Tornado #elip9 {
+    animation: zigzag 0.5s ease-in-out 0.4s infinite alternate;
+}
+
+#Tornado #elip8 {
+    animation: zigzag 0.5s ease-in-out 0.5s infinite alternate;
+}
+
+#Tornado #elip7 {
+    animation: zigzag 0.5s ease-in-out 0.6s infinite alternate;
+}
+
+#Tornado #elip6 {
+    animation: zigzag 0.5s ease-in-out 0.7s infinite alternate;
+}
+
+#Tornado #elip5 {
+    animation: zigzag 0.5s ease-in-out 0.8s infinite alternate;
+}
+
+#Tornado #elip4 {
+    animation: zigzag 0.5s ease-in-out 0.9s infinite alternate;
+}
+
+#Tornado #elip3 {
+    animation: zigzag 0.5s ease-in-out 1s infinite alternate;
+}
+
+#Tornado #elip2 {
+    animation: zigzag 0.5s ease-in-out 1.1s infinite alternate;
+}
+
+#Tornado #elip1 {
+    animation: zigzag 0.5s ease-in-out 1.2s infinite alternate;
+}
+
+@keyframes zigzag {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(1.6%);
+    }
+}
+
+#urricane path:nth-child(8) {
+    animation: letter-rotation-x 0.5s ease-in-out 0.8s forwards, letter-rotation-x-backwards 0.5s ease-in-out 5s forwards;
+}
+
+#urricane path:nth-child(7) {
+    animation: letter-rotation-y 0.5s ease-in-out 1s forwards, letter-rotation-y-backwards 0.5s ease-in-out 4.8s forwards;
+}
+
+#urricane path:nth-child(6) {
+    animation: letter-rotation-x 0.5s ease-in-out 1.2s forwards, letter-rotation-x-backwards 0.5s ease-in-out 4.6s forwards;
+}
+
+#urricane path:nth-child(5) {
+    animation: letter-rotation-x 0.5s ease-in-out 1.4s forwards, letter-rotation-x-backwards 0.5s ease-in-out 4.4s forwards;
+}
+
+#urricane path:nth-child(4) {
+    animation: c-rotation-y 0.5s ease-in-out 1.6s forwards, c-rotation-y-backwards 0.5s ease-in-out 4.2s forwards;
+}
+
+@keyframes c-rotation-y {
+    from {
+        transform: translateX(0px) rotateY(0deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateX(123.5px) rotateY(180deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes c-rotation-y-backwards {
+    from {
+        transform: translateX(123.5px) rotateY(180deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateX(0px) rotateY(0deg);
+        transform-origin: center;
+    }
+}
+
+#urricane path:nth-child(3) {
+    animation: letter-rotation-x 0.5s ease-in-out 1.8s forwards, letter-rotation-x-backwards 0.5s ease-in-out 4s forwards;
+}
+
+#urricane path:nth-child(2) {
+    animation: letter-rotation-x 0.5s ease-in-out 2s forwards, letter-rotation-x-backwards 0.5s ease-in-out 3.8s forwards;
+}
+
+#urricane path:nth-child(1) {
+    animation: letter-rotation-x 0.5s ease-in-out 2.2s forwards, letter-rotation-x-backwards 0.5s ease-in-out 3.6s forwards;
+}
+
+@keyframes letter-rotation-x {
+    from {
+        transform: translateY(0px) rotateX(0deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateY(44px) rotateX(180deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes letter-rotation-x-backwards {
+
+    from {
+        transform: translateY(44px) rotateX(180deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateY(0px) rotateX(0deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes letter-rotation-y {
+    from {
+        transform: translateX(0px) rotateY(0deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateX(-34px) rotateY(180deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes letter-rotation-y-backwards {
+    from {
+        transform: translateX(-34px) rotateY(180deg);
+        transform-origin: center;
+    }
+
+    to {
+        transform: translateX(0px) rotateY(0deg);
+        transform-origin: center;
+    }
+}
